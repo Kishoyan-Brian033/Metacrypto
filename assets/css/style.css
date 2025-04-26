@@ -10,9 +10,9 @@
   --medium-sea-green: hsl(142, 43%, 54%);
   --blue-crayola_10: hsla(222, 100%, 61%, 0.05);
   --smocky-black_30: hsla(0, 0%, 6%, 0.3);
-  --eerie-black-1: hsl(240, 5%, 8%);
-  --eerie-black-2: hsl(228, 9%, 10%);
-  --raisin-black: hsl(225, 15%, 16%);
+  --eerie-black-1: hsl(219, 44%, 9%);
+  --eerie-black-2: hsl(219, 44%, 9%);
+  --raisin-black: hsl(219, 44%, 9%);
   --blue-crayola: hsl(222, 100%, 61%);
   --roman-silver: hsl(223, 10%, 52%);
   --presian-red: hsl(0, 64%, 52%);
@@ -123,7 +123,7 @@ html {
 }
 
 body {
-  background-color: var(--eerie-black-2);
+  background-color: var(--eerie-black-1);
   color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.4;
@@ -276,6 +276,7 @@ body.active { overflow: hidden; }
   border-block-start: 1px solid var(--cultured);
   box-shadow: var(--shadow-1);
   animation: slideIn 0.25s var(--cubic-out) forwards;
+  border-radius: 15px;
 }
 
 @keyframes slideIn {
@@ -352,7 +353,7 @@ body.active { overflow: hidden; }
 .navbar-link {
   color: var(--white);
   font-weight: var(--fw-700);
-  padding: 12px 30px;
+  padding: 3px 30px;
   transition: var(--transition-1);
 }
 
@@ -366,7 +367,7 @@ body.active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-block: 150px 140px; }
+.hero { padding-block: 60px 50px; }
 
 .hero-content { margin-block-end: 80px; }
 
