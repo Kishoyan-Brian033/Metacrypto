@@ -359,15 +359,41 @@ body.active { overflow: hidden; }
 
 .navbar-link:is(:hover, :focus, .active) { color: var(--blue-crayola); }
 
+.search{
+  display: flex;
+  align-items: center;
+  gap: 15px;
 
+}
+.search{
+  display: flex;
+  align-items: center;
+  background: hsla(0, 0%, 0%, 0.1);
+  border: none;
+   border-radius: 6px;
+   padding: 8px 12px;
+}
+input{
+  background: transparent;
+  border: 1px solid #2b4d47;
+  color: var(--white);
+  width: 150px;
+  padding: 0 5px;
+  padding: 8px 12px;
+}
 
-
+.inside-cards{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  
+}
 
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-block: 60px 50px; }
+.hero { padding-block: 60px 70px; }
 
 .hero-content { margin-block-end: 80px; }
 
@@ -426,6 +452,7 @@ body.active { overflow: hidden; }
   padding: 20px;
   border-radius: var(--radius-12);
   transition: var(--transition-1);
+
 }
 
 .trend-card:is(:hover, .active) {
@@ -444,6 +471,8 @@ body.active { overflow: hidden; }
   font-size: var(--fs-7);
   font-weight: var(--fw-700);
   transition: var(--transition-1);
+
+  
 }
 
 .trend-card .card-title:is(:hover, :focus) { color: var(--blue-crayola); }
@@ -458,7 +487,7 @@ body.active { overflow: hidden; }
   color: var(--white);
   font-size: var(--fs-3);
   font-weight: var(--fw-700);
-  margin-block: 10px;
+  margin-block: 1px;
 }
 
 .trend-card .card-analytics {
@@ -470,7 +499,12 @@ body.active { overflow: hidden; }
 .trend-card .current-price { font-size: var(--fs-7); }
 
 
-
+.trend-coins{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
 
 /*-----------------------------------*\
