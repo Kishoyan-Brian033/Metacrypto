@@ -10,7 +10,7 @@ The project consists of an HTML file (`index.html`), CSS styles, and JavaScript 
 
 The project is deployed and hosted on Vercel. You can view the live version of the project here:
 
-[Vercel Deployment Link](https://vercel.com/brians-projects-bcfd072c/metacrypto/AQMBvBhbgN6ANKUY8A1XdgkiZqb9)
+[Vercel Deployment Link](https://metacrypto-brians-projects-bcfd072c.vercel.app/)
 
 ## How to Run Locally
 
